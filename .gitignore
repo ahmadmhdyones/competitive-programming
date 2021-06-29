@@ -4,7 +4,13 @@
 # Windows folder shortcuts to References folder in my HDD
 /References.lnk
 
-# temp files:
+# source files:
+# execution file of main
+/src/main.exe
+# execution file of test
+/src/test.exe
+
+# temporary files:
 # (materials --> to sort and archive)
 /temp/materials
 # preparing book (already exist in References folder)

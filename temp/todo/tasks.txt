@@ -1,0 +1,32 @@
+TODO:
+- Find the length of repeated reminder in long divison
+
+- Write Big_Int library for BigInt operations by yourself to handle all operations
+
+- Learn probability and statistics
+
+- STL:
+    - Algorithm Library (http://www.cplusplus.com/reference/algorithm/)
+    - List
+    - Dequeue
+    - POWER UP C++ WITH THE STANDARD TEMPLATE LIBRARY PART ONE & TWO (https://www.topcoder.com/thrive/articles/Power%20up%20C++%20with%20the%20Standard%20Template%20Library%20Part%20One)
+
+- Topological sort
+
+[ ] Old Problems
+[ ] Participate in virtual contest -1
+[ ] Participate in virtual contest -2
+[ ] Complete (Elementery Math - Intro)
+[ ] Complete (Modular Arithmetic)
+    [ ] 408UVa
+    [ ] 10006UVa
+    [ ] 374UVa
+    [ ] 128UVa
+    [ ] 11155UVa
+    [ ] CF-D2-476C
+    [ ] SRM-144-D2-1
+    [ ] link
+[ ] Complete & Solve problems on (bitwies operators ans operations)
+[ ] Modulo 1e9+7
+[x] Operators in Cpp
+[ ] Review your notes (Intro to math, Mod, Strings, ...)

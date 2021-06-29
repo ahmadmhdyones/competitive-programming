@@ -1,0 +1,17 @@
+{
+    "cSpell.words": [
+        "DCM",
+        "DCMP",
+        "repi",
+        "repr"
+    ],
+    "files.associations": {
+        "*.gitmessage": "git-commit",
+        "ostream": "cpp",
+        "cmath": "cpp",
+        "iostream": "cpp"
+    },
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true,
+	"editor.insertSpaces": false
+}

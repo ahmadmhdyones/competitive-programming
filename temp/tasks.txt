@@ -16,7 +16,12 @@ TODO:
 [ ] Old Problems
 [ ] Participate in virtual contest -1
 [ ] Participate in virtual contest -2
+[ ] Participate in virtual contest -3
 [ ] Complete (Elementery Math - Intro)
+	[ ] Big Integers Problems: UVA(10814, 10929. 10519, 10070)
+	[ ] General problems: UVA(10106, 713, 10370, 10469, 10494,
+							10696, 256, 344, 350, 386, 834, 847,
+							10110, 10223, 10281, 10346)
 [ ] Complete (Modular Arithmetic)
     [ ] 408UVa
     [ ] 10006UVa
@@ -25,8 +30,11 @@ TODO:
     [ ] 11155UVa
     [ ] CF-D2-476C
     [ ] SRM-144-D2-1
-    [ ] link
+    [ ] https://www.hackerrank.com/domains/mathematics?filters%5Bsubdomains%5D%5B%5D=fundamentals
 [ ] Complete & Solve problems on (bitwies operators ans operations)
-[ ] Modulo 1e9+7
+	[ ] operators in cpp
+	[ ] Read CF-Blogs
+	[ ] Solve CF-problems
+[x] Modulo 1e9+7
 [x] Operators in Cpp
 [ ] Review your notes (Intro to math, Mod, Strings, ...)

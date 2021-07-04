@@ -124,7 +124,7 @@ void bitwise()
 {
 	/*
 	 * For bitset all bitwise operator are overloaded that is they can be applied to bitset directly without any
-	 *casting or conversion, main overloaded operator are &, |, ==, != and shifting operator <> which makes
+	 * casting or conversion, main overloaded operator are &, |, ==, != and shifting operator <> which makes
 	 * operation on bitset easy.
 	*/
 
@@ -248,4 +248,26 @@ void reverse()
 
 	auto y = bitset<M>(str);
 	cout << y << endl;
+}
+
+void find()
+{
+	// * find first setted bit
+	bitset<17> BS1;
+	BS1[1] = BS1[7] = 1;
+	cout << BS1._Find_first() << endl; // prints
+
+	// * find next setted bit after index
+	bitset<17> BS2;
+	BS2[1] = BS2[7] = 1;
+	cout << BS2._Find_next(1) << ',' << BS2._Find_next(3) << endl; // prints 7,7
+
+	// * So this code will print all of the set bits of BS :
+	for (int i = BS2._Find_first(); i < BS2.size(); i = BS2._Find_next(i))
+		cout << i << endl;
+
+	/*
+	! Note that there isn't any set bit after idx, BS._Find_next(idx) will return BS.size();
+	! same as calling BS._Find_first() when bitset is clear;
+	*/
 }

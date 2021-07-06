@@ -11,18 +11,31 @@ TODO:
     - Dequeue
     - POWER UP C++ WITH THE STANDARD TEMPLATE LIBRARY PART ONE & TWO (https://www.topcoder.com/thrive/articles/Power%20up%20C++%20with%20the%20Standard%20Template%20Library%20Part%20One)
 
-- Topological sort
+[ ] (Elementery Math - Intro)
+	[ ] Big Integers Problems:
+		[ ] 10814UVa
+		[ ] 10929UVa
+		[ ] 10519UVa
+		[ ] 10070UVa
+	[ ] General problems:
+		[ ] 10106UVa
+		[ ]	713UVa
+		[ ]	10370UVa
+		[ ]	10469UVa
+		[ ]	10494UVa
+		[ ]	10696UVa
+		[ ]	256UVa
+		[ ]	344UVa
+		[ ]	350UVa
+		[ ]	386UVa
+		[ ]	834UVa
+		[ ]	847UVa
+		[ ]	10110UVa
+		[ ]	10223UVa
+		[ ]	10281UVa
+		[ ]	10346UVa
 
-[ ] Old Problems
-[ ] Participate in virtual contest -1
-[ ] Participate in virtual contest -2
-[ ] Participate in virtual contest -3
-[ ] Complete (Elementery Math - Intro)
-	[ ] Big Integers Problems: UVA(10814, 10929. 10519, 10070)
-	[ ] General problems: UVA(10106, 713, 10370, 10469, 10494,
-							10696, 256, 344, 350, 386, 834, 847,
-							10110, 10223, 10281, 10346)
-[ ] Complete (Modular Arithmetic)
+[ ] (Elementery Math - Modular Arithmetic)
     [ ] 408UVa
     [ ] 10006UVa
     [ ] 374UVa
@@ -31,10 +44,50 @@ TODO:
     [ ] CF-D2-476C
     [ ] SRM-144-D2-1
     [ ] https://www.hackerrank.com/domains/mathematics?filters%5Bsubdomains%5D%5B%5D=fundamentals
-[ ] Complete & Solve problems on (bitwies operators ans operations)
-	[ ] operators in cpp
-	[ ] Read CF-Blogs
-	[ ] Solve CF-problems
+
+[ ] (Graph - DFS)
+	[ ] 200UVa
+	[ ] 10336UVa
+	[ ] 10946UVa
+	[ ] 10305UVa
+	[ ] 776UVa
+	[ ] 308UVa
+	[ ] 784UVa
+	[ ] 871UVa
+	[ ] SPOJ/COMPANY/
+	[ ] SPOJ/GALOU/
+	[ ] SPOJ/PT07X/
+	[ ] SPOJ/PT07Y/
+	[ ] SPOJ/PT07Z/
+	[ ] SPOJ/STSTRING/
+	[ ] SPOJ/UMNOZAK/
+
+[ ] (Graph - BFS)
+	[ ] 571UVa
+	[ ] CF242-D2-C
+	[ ] SPOJ/CHASE1/
+	[ ] SPOJ/POUR1/
+	[ ] SPOJ/CHMAZE/
+	[ ] SPOJ/PPATH/
+	[ ] SPOJ/ANARC08A/
+	[ ] SPOJ/CATM/
+	[ ] SPOJ/TOE1/
+	[ ] SPOJ/TOE2/
+	[ ] SPOJ/QUEEN/
+	[ ] SPOJ/CERC07K/
+	[ ] SPOJ/CLEANRBT/
+	[ ] SPOJ/MLASERP/
+	- Testing bipartiteness
+	- Handling Many-1, Many-Many versions
+	- Edge Split and Vertex Split tricks
+
+
+[ ] Review your notes (Intro to math, Mod, Strings, ...)
+
+# Done
+[x] Complete & Solve problems on (bitwies operators ans operations)
+	[x] operators in cpp
+	[x] Read CF-Blogs
+	[x] Solve CF-problems
 [x] Modulo 1e9+7
 [x] Operators in Cpp
-[ ] Review your notes (Intro to math, Mod, Strings, ...)

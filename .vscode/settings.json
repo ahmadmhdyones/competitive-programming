@@ -1,10 +1,16 @@
 {
     "cSpell.words": [
+        "BFS",
         "DCM",
         "DCMP",
         "ICPC",
+        "Indegree",
+        "dfs",
+        "lpd",
         "repi",
-        "repr"
+        "repr",
+        "vvd",
+        "vvi"
     ],
     "files.associations": {
         "*.gitmessage": "git-commit",

@@ -1,3 +1,21 @@
+/******************************
+
+	@author:	ahmadmhdyones
+	@date:		Tue__06_Jul_2021
+	@title:		10452 UVa - Marcus
+	@link:		https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1393
+
+	@submit:	RTE
+	@read:		10min
+	@think:		15min
+	@code:		30min
+	@debug:		0min
+	@total:		55
+	@self:		YES
+	@level:		2.5/10
+	@category:	BFS
+
+******************************/
 #include <iostream>
 #include <vector>
 #include <string>

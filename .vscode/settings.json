@@ -9,6 +9,7 @@
         "lpd",
         "repi",
         "repr",
+        "stoi",
         "vvd",
         "vvi"
     ],
@@ -16,7 +17,19 @@
         "*.gitmessage": "git-commit",
         "ostream": "cpp",
         "cmath": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp",
+        "valarray": "cpp"
     },
     "code-runner.saveFileBeforeRun": true,
     "code-runner.clearPreviousOutput": true,

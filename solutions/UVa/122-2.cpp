@@ -20,9 +20,6 @@
 
 using namespace std;
 
-#define PP(x) ">>> " << #x << " : " << x << endl
-#define DD(x) clog << PP(x)
-
 int cur;
 vector<int> ans;
 set<string> uniq;
@@ -51,7 +48,7 @@ void dfs(int node) {
 		if (
 			v[node].first.size() + 1 == v[cur].first.size()
 			&&
-			v[node].first == v[cur].first.substr(0, v[cur].first.size()-1)
+			v[node].first == v[cur].first.substr(0, v[cur].first.size() - 1)
 			)
 		{
 			adj[node].push_back(cur);
@@ -76,12 +73,19 @@ void bfs(int node) {
 
 int solve()
 {
+	uniq.clear();
+	ans.clear();
+	adj.clear();
+	v.clear();
+	cur = 1;
+
 	string s;
 	while (cin >> s && s != "()") {
 		pair<string, int> in = getInput(s);
 		uniq.insert(in.first);
 		v.push_back(in);
 	}
+	if (v.size() == 0) return 0; // if EOF reached, then exit
 
 	sort(v.begin(), v.end());
 	dfs(0);
@@ -104,14 +108,8 @@ int main()
 {
 	ios::sync_with_stdio(NULL);	cout.tie(NULL);	cin.tie(NULL);
 
-	while (!EOF) {
-		uniq.clear();
-		ans.clear();
-		adj.clear();
-		v.clear();
-		cur = 1;
-		solve();
-	}
+	int t = 1;
+	while (t--) solve();
 
 	return 0;
 }

@@ -44,6 +44,7 @@ int solve()
 	set<string> uniqpaths;
 	vector<string> allpaths;
 	vector< pair<string, int> > input;
+
 	while (cin >> s && s != "()") {
 		pair<string, int> in = getInput(s);
 		uniqpaths.insert(in.first);
@@ -52,9 +53,8 @@ int solve()
 	}
 
 	sort(ALL(input), [](const pair<string, int>& a, const pair<string, int>& b) {
-		if (a.first.size() < b.first.size()) return true;
-		else if (a.first.size() == b.first.size() && a.first <= b.first) return true;
-		else return false;
+		if (a.first.size() != b.first.size()) return a.first.size() < b.first.size();
+		else return a.first < b.first;
 		});
 
 	string ans = "";
@@ -62,6 +62,7 @@ int solve()
 
 	for (int i = 0; i < input.size(); i++) {
 		string parent = input[i].first.substr(0, input[i].first.size() - 1);
+
 		if (find(ALL(allpaths), parent) == allpaths.end())
 			flag = true;
 		else
@@ -78,7 +79,8 @@ int main()
 {
 	ios::sync_with_stdio(NULL);	cout.tie(NULL);	cin.tie(NULL);
 
-	while (!EOF) solve();
+	int t = 1;
+	while (t--) solve();
 
 	return 0;
 }

@@ -14,8 +14,6 @@ using namespace std;
 #define ALL(x) x.begin(), x.end()
 #define RALL(x) x.rbegin(), x.rend()
 #define SORT(x) sort(ALL(x))
-#define READ(x) freopen(x, "r", stdin)
-#define WRITE(x) freopen(x, "w", stdout)
 #define DCM(a) cout << setprecision(a) << fixed
 #define PP(x) ">>> " << #x << " : " << x << endl
 #define DD(x) clog << PP(x)
@@ -57,12 +55,14 @@ int solve()
 
 int main()
 {
+#ifndef ONLINE_JUDGE
+	freopen("in.txt", "r", stdin);
+	freopen("out.txt", "w", stdout);
+#endif
+
 	ios::sync_with_stdio(NULL);
 	cout.tie(NULL);
 	cin.tie(NULL);
-
-	// READ("in.txt");
-	// WRITE("out.txt");
 
 	int t = 1;
 	// cin >> t;

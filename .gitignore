@@ -5,12 +5,14 @@
 /References.lnk
 
 # source files:
+# ____________
 # execution file of main
 /src/main.exe
 # execution file of test
 /src/test.exe
 
 # temporary files:
+# _______________
 # (materials --> to sort and archive)
 /temp/materials
 # preparing book (already exist in References folder)

@@ -46,14 +46,14 @@ TODO:
     [ ] https://www.hackerrank.com/domains/mathematics?filters%5Bsubdomains%5D%5B%5D=fundamentals
 
 [ ] (Graph - DFS)
-	[x]What is DFS? Coding?
-	[ ]DAG, Indegree and OutDegree
-	[ ]Topological Sort using DFS
-	[ ]Adhock method for Topological Sort
-	[x]Connected Components
-	[ ]Edge Classification
-	[ ]Detecting Cycles
-	[ ]Flood Fill
+	[x]	What is DFS? Coding?
+	[ ]	DAG, Indegree and OutDegree
+	[ ]	Topological Sort using DFS
+	[ ]	Adhock method for Topological Sort
+	[x]	Connected Components
+	[ ]	Edge Classification
+	[ ]	Detecting Cycles
+	[ ]	Flood Fill
 	[ ] Review
 	[ ] 200UVa
 	[ ] 10336UVa
@@ -72,12 +72,12 @@ TODO:
 	[ ] SPOJ/UMNOZAK/
 
 [ ] (Graph - BFS)
-	[x]What is BFS? Basic Code
-	[ ]Trick for simpler code
-	[x]Finding shortest path
-	[ ]Testing bipartiteness
-	[ ]Handling Many-1, Many-Many versions
-	[ ]Edge Split and Vertex Split tricks
+	[x] What is BFS? Basic Code
+	[ ] Trick for simpler code
+	[x] Finding shortest path
+	[ ] Testing bipartiteness
+	[ ] Handling Many-1, Many-Many versions
+	[ ] Edge Split and Vertex Split tricks
 	[ ] 571UVa
 	[ ] CF242-D2-C
 	[ ] SPOJ/CHASE1/
@@ -92,11 +92,17 @@ TODO:
 	[ ] SPOJ/CERC07K/
 	[ ] SPOJ/CLEANRBT/
 	[ ] SPOJ/MLASERP/
-	- Testing bipartiteness
-	- Handling Many-1, Many-Many versions
-	- Edge Split and Vertex Split tricks
 
-[ ] (Graph Problems - Zaher)
+[ ] (Fight to ACPC)
+	[ ] Graph problems
+	[ ] DP problems
+
+[ ] (DP - Intro)
+	[ ] 116UVa
+	[ ] 825UVa
+	[ ] 10337UVa
+	[ ] 11341UVa
+	[ ] 10063UVa
 
 [ ] Review your notes (Intro to math, Mod, Strings, ...)
 

@@ -1,0 +1,19 @@
+swap: 		 http://www.cplusplus.com/reference/algorithm/swap/
+
+max_element:	 http://www.cplusplus.com/reference/algorithm/max_element/
+
+min_element:	 http://www.cplusplus.com/reference/algorithm/min_element/
+
+min: 		 http://www.cplusplus.com/reference/algorithm/min/
+
+max: 		 http://www.cplusplus.com/reference/algorithm/max/
+
+minmax: 	 http://www.cplusplus.com/reference/algorithm/minmax/
+
+minmax_element:  http://www.cplusplus.com/reference/algorithm/minmax_element/
+
+qsort: 		 http://www.cplusplus.com/reference/cstdlib/qsort/
+
+sort:
+
+fill:

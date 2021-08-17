@@ -1,0 +1,29 @@
+To get clear about the definition of run time error:
+ A runtime error means that the program was compiled successfully, but it exited with a runtime error or crashed. You will receive an additional error message, which is most commonly one of the following:
+
+1) Most common is "segmentation fault". This may be caused e.g. by an out-of-scope array index causing a buffer overflow, an incorrectly initialized pointer, etc. This signal is generated when a program tries to read or write outside the memory that is allocated for it, or to write memory that can only be read. For example, you’re accessing a[-1] in a language which does not support negative indices for an array.
+
+2) "output limit exceeded". Your program has printed too much data to output.
+
+3) "floating point error". This usually occurs when you’re trying to divide a number by 0, or trying to take the square root of a negative number.
+
+4) (non-zero exit code) - this message means that the program exited returning a value different from 0 to the shell. For languages such as C/C++, this probably means you forgot to add "return 0" at the end of the program. It could happen if your program threw an exception which was not caught. Trying to allocate too much memory in a vector.
+
+5)(Memory Limit Exceeded)-This error means that your program tried to allocate memory beyond the memory limit indicated. This can occur if you declare a very large array, or if a data structure in your program becomes too large.
+
+======================================================================================
+
+Some common mistakes that I used to do are:
+1. Divide by zero.
+2. Array Index Out of Bounds
+3. Finding remainder and storing answer in a float or double.
+4. Dividing float/float and storing answer in integer.
+5. Dividing int/int and storing answer in float. Isn't a problem but should be avoided.
+
+======================================================================================
+
+-) If we want to start with a first index of 1 for
+convenience, we had better remember to allocate room for n + 1 elements in the
+array.
+
+======================================================================================

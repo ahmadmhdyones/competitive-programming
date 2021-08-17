@@ -1,0 +1,16 @@
+1. Method 1:
+   - We call the header file <iomanip> & <iostream> then we code the following statment:
+   
+   			cout << fixed << setprecision(n) << f ;
+			cout.setprecision(n);
+   
+   - where (n) value for the decimal precision and (f) the number that we want to print it
+      <iomanip> for setprecision()
+      <iostream> for fixed
+
+2. Method 2:
+   - We call the <cstdio> | <stdio.h> then we code the following statment:
+
+   			printf( "%.nf" , f ) ;
+
+   - where (n) value for the decimal precision and "%" we use it with '.' to put decimal precision.

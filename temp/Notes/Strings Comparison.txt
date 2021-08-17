@@ -1,0 +1,45 @@
+- We can Compare between two strings by one of the following methods:
+
+A. Char by Char:
+________________
+#include <bits/stdc++.h>
+using namespace std;
+string f, s;
+int main ()
+{
+	cin >> f >> s;
+	for ( int i = 0; i < max(s.size(),f.size()); i ++ ) 
+		if ( tolower(s[i]) < tolower(f[i]) ) return cout << 1 << endl, 0;
+		else if ( tolower(s[i]) > tolower(f[i]) ) return cout << -1 << endl, 0;
+	return cout << 0 << endl, 0;
+}
+
+
+B. stricmp:
+___________
+#include <iostream>
+#include <cstring>
+char s[101],f[101];main(){std::cin>>s>>f;std::cout<<stricmp(s,f);}
+
+
+C. Operators:
+_____________
+#include <iostream>
+using namespace std;
+int main()
+{
+    string a,b;
+    cin>>a>>b;
+    int n=a.length();
+    for (int i=0;i<n;i++)
+        a[i]=tolower(a[i]), b[i]=tolower(b[i]);
+    if (a<b) cout<<-1<<endl;
+    else if (b<a) cout<<1<<endl;
+    else cout<<0<<endl;
+}
+
+=====
+note: we can access to the elements of string by:
+===== 	1. for ( int i = 0; i < s.size(); i ++)
+      	2. for ( int i = 0; i < s[i]!='\0'; i ++)
+      	3. for ( int i = 0; s[i]; i ++)

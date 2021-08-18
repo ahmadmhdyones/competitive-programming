@@ -1,0 +1,22 @@
+A. Math:					(6days)
+________
+- Modular Arithmetic
+- Factorization
+- Prime Numbers
+- Sieve
+- GCD
+- LCM
+- Fast Power
+
+B. String Proccessing:		(2days)
+______________________
+- General
+- KMP
+- Trie
+
+
+C. Search Techniques:		(2days)
+_____________________
+- Binary Search
+- Ternary Search
+- Two Pointers

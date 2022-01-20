@@ -1,22 +1,25 @@
-# history of edited files (log)
+# local history dir
 /.history
 
-# Windows folder shortcuts to References folder in my HDD
+# Win10 shortcut pointing to References dir in HDD
 /References.lnk
 
-# source files:
-# ____________
-# execution file of main
+# execution files
 /src/main.exe
-# execution file of test
 /src/test.exe
+
 # Input / Output files
 /src/in.txt
 /src/out.txt
 
-# temporary files:
-# _______________
 # (materials --> to sort and archive)
-/temp/materials
-# preparing book (already exist in References folder)
-/temp/book.pdf
+.temp/materials
+
+# (already exist in References folder -dont back it up)
+.temp/book.pdf
+
+# CPH Judge files
+.cph
+out.txt
+*[A-Z].cpp
+*[A-Z].exe

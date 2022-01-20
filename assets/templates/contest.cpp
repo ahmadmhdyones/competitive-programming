@@ -1,10 +1,8 @@
 /************************************
-
     @author:    amy
     @title:     Codeforces Round #712 (Div. 2)
                 The Monster is BACK! (◔◡◔)
     @date:      Sat__03_Apr_2021___17_47_39
-
 ************************************/
 #include <bits/stdc++.h>
 using namespace std;

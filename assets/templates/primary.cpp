@@ -1,9 +1,7 @@
 /******************************
-
 	@author:    amy
 	@title:     The Monster is BACK! (◔◡◔)
 	@date:      Day__DD_Mon_YYYY
-
 ******************************/
 #include <bits/stdc++.h>
 

@@ -1,17 +1,16 @@
 /******************************
-
 	@author:    amy
 	@title:     (◔◡◔)
-	@date:      Thu__18_Nov_2021
-
+	@date:      Thu__20_Jan_2022
 ******************************/
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int solve()
 {
-
+	string name;
+	cin >> name;
+	cout << "Hello " << name << "!" << endl;
 
 	return 0;
 }
@@ -23,12 +22,11 @@ int main()
 	cin >> t;
 	while (t--)
 		solve();
-
 	return 0;
 }
 
 /* Time Stamp:
-- Start	Thu__18_Nov_2021___08_33_32
+- Start
 - Read
 - Think
 - Code

@@ -1,4 +1,11 @@
 {
+    // CPH
+    "cph.general.defaultLanguage": "cpp",
+    "cph.general.retainWebviewContext": true,
+    "cph.general.useShortCodeForcesName": true,
+    "cph.general.saveLocation": "C:\\Users\\amy\\Documents\\VS Code Projects\\competitive-programming\\.temp\\.cph",
+    "cph.general.defaultLanguageTemplateFileLocation": "C:\\Users\\amy\\Documents\\VS Code Projects\\competitive-programming\\assets\\templates\\base.cpp",
+    // Spell Checker
     "cSpell.words": [
         "BFS",
         "DCM",
@@ -14,6 +21,11 @@
         "vvd",
         "vvi"
     ],
+    // Code Runner
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true,
+	"code-runner.ignoreSelection": true,
+    // VSC
     "files.associations": {
         "*.gitmessage": "git-commit",
         "ostream": "cpp",
@@ -32,7 +44,5 @@
         "regex": "cpp",
         "valarray": "cpp"
     },
-    "code-runner.saveFileBeforeRun": true,
-    "code-runner.clearPreviousOutput": true,
-	"editor.insertSpaces": false
+    "editor.insertSpaces": false,
 }

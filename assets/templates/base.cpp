@@ -18,7 +18,7 @@ int main()
     int t = 1;
     cin >> t;
     while (t--)
-        solve()--;
+        solve();
     return 0;
 }
 

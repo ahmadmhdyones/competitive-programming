@@ -3,7 +3,7 @@
     "cph.general.defaultLanguage": "cpp",
     "cph.general.retainWebviewContext": true,
     "cph.general.useShortCodeForcesName": true,
-    "cph.general.saveLocation": "C:\\Users\\amy\\Documents\\VS Code Projects\\competitive-programming\\.temp\\.cph",
+    "cph.general.saveLocation": "C:\\Users\\amy\\Documents\\VS Code Projects\\competitive-programming\\.cph",
     "cph.general.defaultLanguageTemplateFileLocation": "C:\\Users\\amy\\Documents\\VS Code Projects\\competitive-programming\\assets\\templates\\base.cpp",
     // Spell Checker
     "cSpell.words": [

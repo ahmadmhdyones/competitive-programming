@@ -1,7 +1,7 @@
 /******************************
-    @author:    amy
-    @title:     The Monster is BACK! (◔◡◔)
-    @date:      Day__DD_Mon_YYYY
+	@author:    amy
+	@title:     The Monster is BACK! (◔◡◔)
+	@date:      Day__DD_Mon_YYYY
 ******************************/
 #include <bits/stdc++.h>
 
@@ -10,16 +10,16 @@ using namespace std;
 int solve()
 {
 
-    return 0;
+	return 0;
 }
 
 int main()
 {
-    int t = 1;
-    cin >> t;
-    while (t--)
-        solve()--;
-    return 0;
+	int t = 1;
+	cin >> t;
+	while (t--)
+		solve();
+	return 0;
 }
 
 /* Time Stamp:

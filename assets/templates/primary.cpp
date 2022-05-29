@@ -29,10 +29,10 @@ typedef vector<string> vs;
 typedef vector<double> vd;
 
 ld const PI = acos(-1.0L);	//3.1415926535897932385
-ll const MOD = 1e9 + 7;		//1,000,000,007
-ld const EPS = (1e-7);		//0.0000001
-ll const N = 200005;		//(2 * 10^5) + 5
-ll const OO = 1e8;			//100,000,000
+ll const MOD = 1e9 + 7;			//1,000,000,007
+ld const EPS = (1e-7);			//0.0000001
+ll const N = 200005;				//(2 * 10^5) + 5
+ll const OO = 1e8;					//100,000,000
 
 ll gcd(ll a, ll b) { return (b == 0 ? a : gcd(b, a % b)); }
 ll lcm(ll a, ll b) { return (a * b / gcd(a, b)); }
@@ -63,7 +63,7 @@ int main()
 	cin.tie(NULL);
 
 	int t = 1;
-	// cin >> t;
+	cin >> t;
 	while (t--)
 	{
 		solve();

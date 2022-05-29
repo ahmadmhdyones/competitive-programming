@@ -1,8 +1,8 @@
 /************************************
-    @author:    amy
-    @title:     Codeforces Round #712 (Div. 2)
-                The Monster is BACK! (◔◡◔)
-    @date:      Sat__03_Apr_2021___17_47_39
+	@author:    amy
+	@title:     Codeforces Round #712 (Div. 2)
+				The Monster is BACK! (◔◡◔)
+	@date:      Sat__03_Apr_2021___17_47_39
 ************************************/
 #include <bits/stdc++.h>
 using namespace std;
@@ -57,10 +57,10 @@ vi V(N);
 
 int main()
 {
-    ios::sync_with_stdio(NULL), cin.tie(NULL), cout.tie(NULL);
-    cin >> TC;
-    while (TC--) {
+	ios::sync_with_stdio(NULL), cin.tie(NULL), cout.tie(NULL);
+	cin >> TC;
+	while (TC--) {
 
-    }
-    return 0;
+	}
+	return 0;
 }

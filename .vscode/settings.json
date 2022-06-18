@@ -1,49 +1,55 @@
 {
-  // CPH
-  "cph.general.menuChoices": "cpp",
-  "cph.general.defaultLanguage": "cpp",
-  "cph.general.retainWebviewContext": true,
-  "cph.general.useShortCodeForcesName": true,
-  "cph.general.saveLocation": "/home/amy/Documents/Projects/competitive-programming/.temp/.cph",
-  "cph.general.defaultLanguageTemplateFileLocation": "/home/amy/Documents/Projects/competitive-programming/assets/templates/quick.cpp",
-  // Spell Checker
-  "cSpell.words": [
-    "BFS",
-    "DCM",
-    "DCMP",
-    "ICPC",
-    "Indegree",
-    "dfs",
-    "lpd",
-    "repi",
-    "repr",
-    "stoi",
-    "stoll",
-    "vvd",
-    "vvi"
-  ],
-  // Code Runner
-  "code-runner.saveFileBeforeRun": true,
-  "code-runner.clearPreviousOutput": true,
-  "code-runner.ignoreSelection": true,
-  // VSC
-  "files.associations": {
-    "*.gitmessage": "git-commit",
-    "ostream": "cpp",
-    "cmath": "cpp",
-    "iostream": "cpp",
-    "array": "cpp",
-    "deque": "cpp",
-    "forward_list": "cpp",
-    "list": "cpp",
-    "string": "cpp",
-    "unordered_map": "cpp",
-    "unordered_set": "cpp",
-    "vector": "cpp",
-    "string_view": "cpp",
-    "initializer_list": "cpp",
-    "regex": "cpp",
-    "valarray": "cpp"
-  },
-  "editor.insertSpaces": false
+    // CPH
+    "cph.general.menuChoices": "cpp",
+    "cph.general.defaultLanguage": "cpp",
+    "cph.general.retainWebviewContext": true,
+    "cph.general.useShortCodeForcesName": true,
+    "cph.general.saveLocation": "/home/amy/Documents/Projects/competitive-programming/.temp/.cph",
+    "cph.general.defaultLanguageTemplateFileLocation": "/home/amy/Documents/Projects/competitive-programming/assets/templates/solve.cpp",
+    // Spell Checker
+    "cSpell.words": [
+        "BFS",
+        "DCM",
+        "DCMP",
+        "ICPC",
+        "Indegree",
+        "dfs",
+        "lpd",
+        "repi",
+        "repr",
+        "stoi",
+        "stoll",
+        "vvd",
+        "vvi"
+    ],
+    // Code Runner
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": true,
+    // VSC
+    "files.associations": {
+        "*.gitmessage": "git-commit",
+        "ostream": "cpp",
+        "cmath": "cpp",
+        "iostream": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp",
+        "valarray": "cpp",
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "condition_variable": "cpp",
+        "future": "cpp",
+        "type_traits": "cpp"
+    },
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": false
 }

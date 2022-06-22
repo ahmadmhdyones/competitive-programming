@@ -20,115 +20,115 @@ vector< vector< pair<int, int> > > adjList2;	// cost relation (node, cost): Sele
 
 // Edges List
 struct edge {
-	int from, to, w;
+    int from, to, w;
 
-	edge(int from, int to, int w) : from(from), to(to), w(w) {}
+    edge(int from, int to, int w) : from(from), to(to), w(w) {}
 
-	bool operator < (const edge& e) const {
-		return w > e.w;	// Sort with smaller weight first
-	}
+    bool operator < (const edge& e) const {
+        return w > e.w;	// Sort with smaller weight first
+    }
 };
 
 vector<edge> edgeList;
 
 int main()
 {
-	int n;
+    int n;
 
-	// Assume all input is ZERO based. Node values [0 - n-1]
+    // Assume all input is ZERO based. Node values [0 - n-1]
 
-	/*
-		3
-		0 1 0
-		1 1 0
-		0 1 1
-	 */
+    /*
+        3
+        0 1 0
+        1 1 0
+        0 1 1
+     */
 
-	cin >> n;
-	lp(i, n) lp(j, n) {
-		int b;
-		cin >> b;
-		adjMatrixBool[i][j] = b;
-	}
+    cin >> n;
+    lp(i, n) lp(j, n) {
+        int b;
+        cin >> b;
+        adjMatrixBool[i][j] = b;
+    }
 
-	/*
-		3
-		0 10 5
-		2 7 9
-		3 2 0
-	 */
+    /*
+        3
+        0 10 5
+        2 7 9
+        3 2 0
+     */
 
-	cin >> n;
-	lp(i, n) lp(j, n) {
-		int b;
-		cin >> b;
-		adjMatrix[i][j] = b;
-	}
+    cin >> n;
+    lp(i, n) lp(j, n) {
+        int b;
+        cin >> b;
+        adjMatrix[i][j] = b;
+    }
 
-	//adjMatrix initialize with OO
-	int edges;
-	cin >> n >> edges;
-	/*
-		3 5
-		0 3 10
-		1 5 2
-		3 7 -2
-		0 3 2
-		2 4 6
-	 */
-	lp(i, edges)
-	{
-		int from, to, cost;
-		cin >> from >> to >> cost;
-		adjMatrix[from][to] = min(adjMatrix[from][to], cost);	// if directed
+    //adjMatrix initialize with OO
+    int edges;
+    cin >> n >> edges;
+    /*
+        3 5
+        0 3 10
+        1 5 2
+        3 7 -2
+        0 3 2
+        2 4 6
+     */
+    lp(i, edges)
+    {
+        int from, to, cost;
+        cin >> from >> to >> cost;
+        adjMatrix[from][to] = min(adjMatrix[from][to], cost);	// if directed
 
-		// if undirected: add following
-		adjMatrix[to][from] = adjMatrix[from][to];
-	}
+        // if undirected: add following
+        adjMatrix[to][from] = adjMatrix[from][to];
+    }
 
 
 
-	// Let's keep edge with min cost;
+    // Let's keep edge with min cost;
 
-	/*
-		3
-		2	1 2
-		1	2
-		2	0 1
-	 */
-	cin >> n;
-	adjList1 = vector< vector<int> >(n);
-	lp(i, n)
-	{
-		int cnt;
-		cin >> cnt;
-		lp(j, cnt)
-		{
-			int to;
-			cin >> to;
-			adjList1[i].push_back(to);
-		}
-	}
+    /*
+        3
+        2	1 2
+        1	2
+        2	0 1
+     */
+    cin >> n;
+    adjList1 = vector< vector<int> >(n);
+    lp(i, n)
+    {
+        int cnt;
+        cin >> cnt;
+        lp(j, cnt)
+        {
+            int to;
+            cin >> to;
+            adjList1[i].push_back(to);
+        }
+    }
 
-	/*
-		3
-		2	1 13	2 4
-		1	2 9		3 -4
-		2	0 -7	1 8
-	 */
-	cin >> n;
-	adjList2 = vector< vector< pair<int, int> > >(n);
-	lp(i, n)
-	{
-		int cnt;
-		cin >> cnt;
-		lp(j, cnt)
-		{
-			int to, cost;
-			cin >> to >> cost;
-			adjList2[i].push_back({ to, cost });
-		}
-	}
+    /*
+        3
+        2	1 13	2 4
+        1	2 9		3 -4
+        2	0 -7	1 8
+     */
+    cin >> n;
+    adjList2 = vector< vector< pair<int, int> > >(n);
+    lp(i, n)
+    {
+        int cnt;
+        cin >> cnt;
+        lp(j, cnt)
+        {
+            int to, cost;
+            cin >> to >> cost;
+            adjList2[i].push_back({ to, cost });
+        }
+    }
 
-	return 0;
+    return 0;
 }

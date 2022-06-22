@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
-string convert_decimal_to_base(long long decimal, long long base)
+string convert_decimal_to_num_base(long long decimal, long long base)
 {
     string res = "";
     while (decimal) {
@@ -13,7 +12,7 @@ string convert_decimal_to_base(long long decimal, long long base)
 }
 
 
-long long convert_decimal_to_base(long long decimal, long long base)
+long long convert_decimal_to_str_base(long long decimal, long long base)
 {
     long long res = 0, x = 1;
     while (decimal) {

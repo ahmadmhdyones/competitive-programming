@@ -38,20 +38,20 @@ typedef vector<string>    vs;
 
 
 vector<int> BFS(int s, vector<vector<int> >& adjList) {
-	vector<int> len(sz(adjList), OO);
-	queue< pair<int, int> > q;
-	q.push(MP(s, 0)), len[s] = 0;
+    vector<int> len(sz(adjList), OO);
+    queue< pair<int, int> > q;
+    q.push(MP(s, 0)), len[s] = 0;
 
-	int cur, dep;
-	while (!q.empty()) {
-		pair<int, int> p = q.front();	 q.pop();
-		cur = p.first, dep = p.second;
+    int cur, dep;
+    while (!q.empty()) {
+        pair<int, int> p = q.front();	 q.pop();
+        cur = p.first, dep = p.second;
 
-		rep(i, adjList[cur]) if (len[adjList[cur][i]] == OO)
-			q.push(MP(adjList[cur][i], dep + 1)), len[adjList[cur][i]] = dep + 1;
-	}
+        rep(i, adjList[cur]) if (len[adjList[cur][i]] == OO)
+            q.push(MP(adjList[cur][i], dep + 1)), len[adjList[cur][i]] = dep + 1;
+    }
 
-	return len;	//cur is the furthest node from s with depth dep
+    return len;	//cur is the furthest node from s with depth dep
 }
 
 
@@ -84,19 +84,19 @@ vector<int> BFS(int s, vector<vector<int> >& adjList) {
 
 
 vector<int> BFS2(int s, vector<vector<int> >& adjList) {
-	vector<int> len(sz(adjList), OO);
-	queue<int> q;
-	q.push(s), len[s] = 0;
+    vector<int> len(sz(adjList), OO);
+    queue<int> q;
+    q.push(s), len[s] = 0;
 
-	int dep = 0, cur = s, sz = 1;
-	for (; !q.empty(); ++dep, sz = q.size()) {
-		while (sz--) {
-			cur = q.front(), q.pop();
-			rep(i, adjList[cur]) if (len[adjList[cur][i]] == OO)
-				q.push(adjList[cur][i]), len[adjList[cur][i]] = dep + 1;
-		}
-	}
-	return len;	//cur is the furthest node from s with depth dep
+    int dep = 0, cur = s, sz = 1;
+    for (; !q.empty(); ++dep, sz = q.size()) {
+        while (sz--) {
+            cur = q.front(), q.pop();
+            rep(i, adjList[cur]) if (len[adjList[cur][i]] == OO)
+                q.push(adjList[cur][i]), len[adjList[cur][i]] = dep + 1;
+        }
+    }
+    return len;	//cur is the furthest node from s with depth dep
 }
 
 
@@ -120,39 +120,39 @@ vector<int> BFS2(int s, vector<vector<int> >& adjList) {
 
 
 vector<int> BFSPath(int s, int d, vector<vector<int> >& adjList) {
-	vector<int> len(sz(adjList), OO);
-	vector<int> par(sz(adjList), -1);
-	queue<int> q;
-	q.push(s), len[s] = 0;
+    vector<int> len(sz(adjList), OO);
+    vector<int> par(sz(adjList), -1);
+    queue<int> q;
+    q.push(s), len[s] = 0;
 
-	int dep = 0, cur = s, sz = 1;
-	bool ok = true;
+    int dep = 0, cur = s, sz = 1;
+    bool ok = true;
 
-	for (; ok && !q.empty(); ++dep, sz = q.size()) {
-		while (ok && sz--) {
-			cur = q.front(), q.pop();
-			rep(i, adjList[cur]) if (len[adjList[cur][i]] == OO)
-			{
-				q.push(adjList[cur][i]), len[adjList[cur][i]] = dep + 1, par[adjList[cur][i]] = cur;
+    for (; ok && !q.empty(); ++dep, sz = q.size()) {
+        while (ok && sz--) {
+            cur = q.front(), q.pop();
+            rep(i, adjList[cur]) if (len[adjList[cur][i]] == OO)
+            {
+                q.push(adjList[cur][i]), len[adjList[cur][i]] = dep + 1, par[adjList[cur][i]] = cur;
 
-				if (adjList[cur][i] == d)	// we found target no need to continue
-				{
-					ok = false;
-					break;
-				}
-			}
-		}
-	}
+                if (adjList[cur][i] == d)	// we found target no need to continue
+                {
+                    ok = false;
+                    break;
+                }
+            }
+        }
+    }
 
-	vector<int> path;
-	while (d != -1) {
-		path.push_back(d);
-		d = par[d];
-	}
+    vector<int> path;
+    while (d != -1) {
+        path.push_back(d);
+        d = par[d];
+    }
 
-	reverse(all(path));
+    reverse(all(path));
 
-	return path;
+    return path;
 }
 
 
@@ -217,25 +217,25 @@ vector<int> BFSPath(int s, int d, vector<vector<int> >& adjList) {
 int main()
 {
 #ifndef ONLINE_JUDGE
-	freopen("c.in", "rt", stdin);
-	//freopen(".txt", "wt", stdout);
+    freopen("c.in", "rt", stdin);
+    //freopen(".txt", "wt", stdout);
 #endif
 
-	int n, e;
+    int n, e;
 
-	cin >> n >> e;
+    cin >> n >> e;
 
-	vector<vector<int> > adj(n);
+    vector<vector<int> > adj(n);
 
-	lp(i, e) {
-		int from, to;
-		cin >> from >> to;
-		adj[from - 1].push_back(to - 1);
-	}
+    lp(i, e) {
+        int from, to;
+        cin >> from >> to;
+        adj[from - 1].push_back(to - 1);
+    }
 
-	vector<int> p = BFSPath(0, 4, adj);
-	rep(i, p)
-		cout << p[i] + 1 << " ";
+    vector<int> p = BFSPath(0, 4, adj);
+    rep(i, p)
+        cout << p[i] + 1 << " ";
 
-	return 0;
+    return 0;
 }

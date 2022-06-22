@@ -6,14 +6,14 @@ using namespace std;
 */
 int int_ceil(int a, int b)
 {
-	return (a + b - 1) / b;
+    return (a + b - 1) / b;
 }
 int int_round(int a, int b)
 {
-	if (a > 0)
-		return (a + b / 2) / b;
-	if (a < 0)
-		return (a - b / 2) / b;
+    if (a > 0)
+        return (a + b / 2) / b;
+    if (a < 0)
+        return (a - b / 2) / b;
 }
 
 /*
@@ -33,5 +33,5 @@ int int_round(int a, int b)
 */
 int round_to(double x, double m)
 {
-	return round(x / m) * m;
+    return round(x / m) * m;
 }

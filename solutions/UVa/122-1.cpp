@@ -22,7 +22,7 @@ using namespace std;
 
 #define ALL(x) x.begin(), x.end()
 
-pair<string, int> getInput(string s) {
+pair<string, int> get_input(string s) {
 	string t = "";
 	int i = 1;
 
@@ -46,7 +46,7 @@ int solve()
 	vector< pair<string, int> > input;
 
 	while (cin >> s && s != "()") {
-		pair<string, int> in = getInput(s);
+		pair<string, int> in = get_input(s);
 		uniqpaths.insert(in.first);
 		allpaths.push_back(in.first);
 		input.push_back(in);

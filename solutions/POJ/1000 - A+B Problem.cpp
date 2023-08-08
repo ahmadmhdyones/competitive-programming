@@ -1,8 +1,8 @@
 /******************************
 
-    @author:  AhmadMhdYones
-    @title:   ACM - POJ - 1000
-    @date:    6th - June - 2019
+	@author:  AhmadMhdYones
+	@title:   ACM - POJ - 1000
+	@date:    6th - June - 2019
 
 *******************************/
 #include <iostream>
@@ -13,9 +13,9 @@ int a, b;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin >> a >> b;
-    cout << a + b << endl;
+	ios::sync_with_stdio(false);
+	cin >> a >> b;
+	cout << a + b << endl;
 
-    return 0;
+	return 0;
 }

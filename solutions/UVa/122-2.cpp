@@ -26,7 +26,7 @@ set<string> uniq;
 map<int, vector<int> > adj;
 vector< pair<string, int> > v;
 
-pair<string, int> getInput(string s) {
+pair<string, int> get_input(string s) {
 	string t = "";
 	int i = 1;
 
@@ -56,6 +56,7 @@ void dfs(int node) {
 			dfs(cur - 1);
 		}
 }
+
 void bfs(int node) {
 	queue<int> q;
 	q.push(node);
@@ -81,7 +82,7 @@ int solve()
 
 	string s;
 	while (cin >> s && s != "()") {
-		pair<string, int> in = getInput(s);
+		pair<string, int> in = get_input(s);
 		uniq.insert(in.first);
 		v.push_back(in);
 	}

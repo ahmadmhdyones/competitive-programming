@@ -16,8 +16,8 @@ long double EPS = 1e-10;
 
 int double_comp(double a, double b)
 {
-    // if very small difference, then equal
-    if (fabs(a - b) <= EPS)
-        return 0;
-    return a < b ? -1 : 1;
+	// if very small difference, then equal
+	if (fabs(a - b) <= EPS)
+		return 0;
+	return a < b ? -1 : 1;
 }

@@ -1,7 +1,0 @@
--) C supports several basic data types, including int, float, and char. Higher precision ints and floats are denoted long and double, respectively.
-
-=======================================================================================
-
--) All functions return a value of type int if not otherwise specified.
-
-=======================================================================================

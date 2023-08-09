@@ -1,5 +1,5 @@
 - Method 1:
-the compiler in C faster than in C++, so that the input&output in C++ are slow than in C and we use the input&output C function scanf&printf in C++ instead of cin&cout when we have a large value of output|input.
+the compiler in C faster than in C++, so that the input&output in C++ are slower than in C and we use the input&output C function scanf&printf in C++ instead of cin&cout when we have a large value of output|input.
 
 - Method 2:
 including the following two lines in your main() function:
@@ -10,4 +10,3 @@ cin.tie(NULL) , cout.tie(0) ;
 cout << endl  : Inserts a new line and flushes the stream
 cout << "\n"  : Only inserts a new line.
 cout << "\n" seems performance wise better than cout << endl; unless flushing of stream is required.
-

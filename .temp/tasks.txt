@@ -1,5 +1,4 @@
 TODO:
-- Find the length of repeated reminder in long divison
 
 - Write Big_Int library for BigInt operations by yourself to handle all operations
 
@@ -10,13 +9,3 @@ TODO:
     * List
     * Dequeue
     * POWER UP C++ WITH THE STANDARD TEMPLATE LIBRARY PART ONE & TWO (https://www.topcoder.com/thrive/articles/Power%20up%20C++%20with%20the%20Standard%20Template%20Library%20Part%20One)
-
-[ ] Review your notes (Intro to math, Mod, Strings, ...)
-
-# Done
-[x] Complete & Solve problems on (bitwies operators ans operations)
-	[x] operators in cpp
-	[x] Read CF-Blogs
-	[x] Solve CF-problems
-[x] Modulo 1e9+7
-[x] Operators in Cpp

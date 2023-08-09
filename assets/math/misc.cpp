@@ -7,7 +7,7 @@ using namespace std;
 
     @return:
         if x == 0, then it returns 0
-        else, it returns the number of digits for x
+        else, it returns the number of digits of x
 */
 int num_digits(long long x)
 {

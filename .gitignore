@@ -8,6 +8,7 @@
 /src/main.exe
 /src/test.exe
 /src/main.cpp
+/src/main.*
 
 # Input / Output files
 /src/in.txt

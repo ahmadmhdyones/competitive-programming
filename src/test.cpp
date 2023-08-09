@@ -37,48 +37,50 @@ ll power(ll a, ll b, ll m = MOD) { return (b == 0 ? 1 : (b == 1 ? a : (b % 2 ? (
 
 int solve()
 {
-	int n, m, p;
-	cin >> n >> m;
-	vi a(n);
-	vector < vector<bool> > adj(n, vector<bool>(n, 0));
-	for (auto& i : a) cin >> i;
-	while (m--) cin >> p, adj[p][p - 1] = adj[p - 1][p] = 1;
+    int n, m, p;
+    cin >> n >> m;
+    vi a(n);
+    vector < vector<bool> > adj(n, vector<bool>(n, 0));
+    for (auto& i : a) cin >> i;
+    while (m--) cin >> p, adj[p][p - 1] = adj[p - 1][p] = 1;
 
-	for (int i = 0, j = i + 1; i < n; i++, j = i + 1) {
-		while (a[i] > a[j] && adj[i][j] && j < n)
-			swap(a[i], a[j]), j++;
-	}
+    for (int i = 0, j = i + 1; i < n; i++, j = i + 1) {
+        while (a[i] > a[j] && adj[i][j] && j < n)
+            swap(a[i], a[j]), j++;
+    }
 
-	cout << (is_sorted(ALL(a)) ? "YES" : "NO") << endl;
+    cout << (is_sorted(ALL(a)) ? "YES" : "NO") << endl;
 
-	return 0;
+    return 0;
 }
 
 int main()
 {
 #ifndef ONLINE_JUDGE
-	// freopen("in.txt", "r", stdin);
-	// freopen("out.txt", "w", stdout);
+    // freopen("in.txt", "r", stdin);
+    // freopen("out.txt", "w", stdout);
 #endif
 
-	ios::sync_with_stdio(NULL);
-	cout.tie(NULL);
-	cin.tie(NULL);
+    ios::sync_with_stdio(NULL);
+    cout.tie(NULL);
+    cin.tie(NULL);
 
-	int t = 1;
-	cin >> t;
-	while (t--)
-	{
-		solve();
-	}
+    int t = 1;
+    cin >> t;
+    while (t--)
+    {
+        solve();
+    }
 
-	return 0;
+    return 0;
 }
 
-/* Time Stamp:
-- Start
-- Read
-- Think
-- Code
-- Debug
+/*
+? Time Stamp:
+-------------
+  * Start:
+  * Read:
+  * Think:
+  * Code:
+  * Debug:
 */

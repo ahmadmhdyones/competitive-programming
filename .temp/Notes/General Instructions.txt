@@ -1,8 +1,8 @@
 1) Never make an assumption which is not explicitly stated in the specs.
 There is absolutely no reason to believe that the input is sorted, the graphs are connected, or that the integers used in a problem are positive and reasonably small unless it says so in the specification.
 
-2) Iff your program is found guilty of having a wrong answer, then review the specifications carefully. Even when you may be sure that your program is correct, the judge may keep saying no. Perhaps you are overlooking a boundary case or assuming something which just ain’t so. Resubmitting the program without change does you absolutely no good. Read the problem again to make sure it says what you thought it did.
+2) If your program is found guilty of having a wrong answer, then review the specifications carefully. Even when you may be sure that your program is correct, the judge may keep saying no. Perhaps you are overlooking a boundary case or assuming something which just ainï¿½t so. Resubmitting the program without change does you absolutely no good. Read the problem again to make sure it says what you thought it did.
 
-3) The basic lesson is that the tools do not make the man. Your language doesn’t solve the problems – you do.
+3) The basic lesson is that the tools do not make the man. Your language doesnï¿½t solve the problems ï¿½ you do.
 
-4) 
+4)

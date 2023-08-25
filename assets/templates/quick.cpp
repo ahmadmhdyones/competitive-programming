@@ -15,14 +15,14 @@ ll power(ll a, ll b, ll m = MOD) { return (b == 0 ? 1 : (b == 1 ? a : (b % 2 ? (
 int solve()
 {
 
-	return 0;
+    return 0;
 }
 
 int main()
 {
-	ios::sync_with_stdio(NULL), cout.tie(NULL), cin.tie(NULL);
-	int t = 1;
-	cin >> t;
-	while (t--) solve();
-	return 0;
+    ios::sync_with_stdio(NULL), cout.tie(NULL), cin.tie(NULL);
+    int t = 1;
+    cin >> t;
+    while (t--) solve();
+    return 0;
 }

@@ -1,81 +1,65 @@
-/******************************
-	@author:    amy
-	@title:     The Monster is BACK! (◔◡◔)
-	@date:      Day__DD_Mon_YYYY
-******************************/
+/************************************
+    @author:    amy
+    @title:     Codeforces Round #712 (Div. 2)
+    @date:      Sat__03_Apr_2021___17_47_39
+************************************/
 #include <bits/stdc++.h>
-
 using namespace std;
 
-#define endl '\n'
-#define SIZE(v) ((int)((v).size()))
-#define ALL(x) x.begin(), x.end()
-#define RALL(x) x.rbegin(), x.rend()
-#define SORT(x) sort(ALL(x))
-#define DCM(a) cout << setprecision(a) << fixed
-#define PP(x) ">>> " << #x << " : " << x << endl
-#define DD(x) clog << PP(x)
+#define endl        '\n'
+#define fr          first
+#define sc          second
+#define PB(x)       push_back(x)
+#define MP(x, y)    make_pair(x, y)
+#define sz(v)       ((int)((v).size()))
+#define ALL(x)      x.begin(), x.end()
+#define RALL(x)     x.rbegin(), x.rend()
+#define SORT(x)     sort(ALL(x))
+#define READ(x)     freopen(x, "r", stdin)
+#define WRITE(x)    freopen(x, "w", stdout)
+#define CLEAR(a)    memset(a, 0, sizeof(a))
+#define FILL(a)     fill(a, a + 1000000, true)
+#define DCM(a)      cout << setprecision(a) <<fixed
+#define rep(n)      for (ll i = 0; i < n; i++)
+#define repi(a, n)  for (ll i = a; i < n; i++)
+#define repr(a, n)  for (ll i = a; i > n; i--)
+#define PP(x)        ">>> " << #x << " : " << x << endl
+#define C(x)        cout << PP(x)
+#define CC(x)       clog << PP(x)
 
 typedef long long ll;
 typedef long double ld;
-typedef unsigned int ui;
-typedef pair<int, int> ii;
-typedef unsigned long long ul;
-typedef vector<ll> vl;
 typedef vector<int> vi;
+typedef vector<ll> vl;
+typedef pair<int, int> ii;
 typedef vector<ii> vii;
-typedef vector<vi> vvi;
-typedef vector<string> vs;
-typedef vector<double> vd;
+typedef unsigned int ui;
+typedef unsigned long long ull;
 
-ld const PI = acos(-1.0L);	//3.1415926535897932385
-ll const MOD = 1e9 + 7;			//1,000,000,007
-ld const EPS = (1e-7);			//0.0000001
-ll const N = 200005;				//(2 * 10^5) + 5
-ll const OO = 1e8;					//100,000,000
+ll const N = 200005;
+ld const EPS = (1e-7);
+ll const MOD = 1e9 + 7;
+ld const PI = acos(-1.0L); //3.1415926535897932385
+ll GCD(ll a, ll b) { return (b == 0 ? a : GCD(b, a % b)); }
+ll LCM(ll a, ll b) { return (a * b / GCD(a, b)); }
+ll POW(ll a, ll b) { return (b == 0 ? 1 : (!b & 1 ? POW(a, b / 2) * POW(a, b / 2) % MOD : POW(a, b - 1) * (a % MOD) % MOD)); }
+ll DCMP(ld x, ld y) { return fabs(x - y) <= EPS ? 0 : x < y ? -1 : 1; }
+ll CEIL(ll x, ll y) { return (x + y - 1) / y; }
 
-ll gcd(ll a, ll b) { return (b == 0 ? a : gcd(b, a % b)); }
-ll lcm(ll a, ll b) { return (a * b / gcd(a, b)); }
-ll max(ll a, ll b) { return (a > b ? a : b); }
-ll min(ll a, ll b) { return (a < b ? a : b); }
-ll power(ll a, ll b, ll m = MOD) { return (b == 0 ? 1 : (b == 1 ? a : (b % 2 ? ((((power(a, b / 2, m) * power(a, b / 2, m)) % m) * a) % m) : (((power(a, b / 2, m) * power(a, b / 2, m)) % m) % m)))); }
-
-int solve()
-{
-	/*
-	 *
-	 * write your sol. here
-	 *
-	*/
-
-	return 0;
-}
+ll TC = 1, n, m, ans, res, sum, mx, mn, a, b, c, d, x, y, z, k, l, r, q, u, v, p;
+int A[N], B[N], C[N], D[N], L[N], R[N], X[N], Y[N], Q[N];
+string S[N], s, T[N], t;
+bool F[N], f;
+set<int> st;
+vii P(N);
+vi V(N);
 
 int main()
 {
-#ifndef ONLINE_JUDGE
-	freopen("in.txt", "r", stdin);
-	freopen("out.txt", "w", stdout);
-#endif
+    ios::sync_with_stdio(NULL), cin.tie(NULL), cout.tie(NULL);
+    cin >> TC;
+    while (TC--) {
 
-	ios::sync_with_stdio(NULL);
-	cout.tie(NULL);
-	cin.tie(NULL);
-
-	int t = 1;
-	cin >> t;
-	while (t--)
-	{
-		solve();
-	}
-
-	return 0;
+    }
+    return 0;
 }
-
-/* Time Stamp:
-- Start Thu__25_Mar_2021___15_41_21
-- Read  Thu__25_Mar_2021___15_43_39
-- Think Thu__25_Mar_2021___15_54_21
-- Code  Thu__25_Mar_2021___15_59_15
-- Debug Thu__25_Mar_2021___16_17_57
-*/

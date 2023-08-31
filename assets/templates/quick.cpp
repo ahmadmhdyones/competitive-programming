@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define PP(x) ">>> " << #x << " : " << x << endl
-#define DD(x) clog << PP(x)
+#define DD(x) clog << ">>> " << #x << " : " << x << endl
 typedef long long ll;
 ll const MOD = 1e9 + 7;
 ll const N = 200005;
@@ -20,9 +19,19 @@ int solve()
 
 int main()
 {
-    ios::sync_with_stdio(NULL), cout.tie(NULL), cin.tie(NULL);
+    ios::sync_with_stdio(false), cout.tie(NULL), cin.tie(NULL);
     int t = 1;
     cin >> t;
     while (t--) solve();
     return 0;
 }
+
+/*
+? Time Stamp:
+-------------
+    * Start:
+    * Read:
+    * Think:
+    * Code:
+    * Debug:
+*/

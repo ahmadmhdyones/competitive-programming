@@ -14,3 +14,13 @@ int main()
     while (t--) solve();
     return 0;
 }
+
+/*
+? Time Stamp:
+-------------
+    * Start:
+    * Read:
+    * Think:
+    * Code:
+    * Debug:
+*/

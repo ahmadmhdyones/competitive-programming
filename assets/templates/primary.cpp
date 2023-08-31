@@ -24,8 +24,7 @@ using namespace std;
 #define repi(a, n)  for (ll i = a; i < n; i++)
 #define repr(a, n)  for (ll i = a; i > n; i--)
 #define PP(x)        ">>> " << #x << " : " << x << endl
-#define C(x)        cout << PP(x)
-#define CC(x)       clog << PP(x)
+#define DD(x)       clog << PP(x)
 
 typedef long long ll;
 typedef long double ld;
@@ -54,12 +53,37 @@ set<int> st;
 vii P(N);
 vi V(N);
 
+int solve()
+{
+    /*
+     *
+     * write your sol. here
+     *
+    */
+
+    return 0;
+}
+
 int main()
 {
-    ios::sync_with_stdio(NULL), cin.tie(NULL), cout.tie(NULL);
+#ifndef ONLINE_JUDGE
+    freopen("in.txt", "r", stdin);
+    freopen("out.txt", "w", stdout);
+#endif
+    ios::sync_with_stdio(0), cin.tie(NULL), cout.tie(NULL);
     cin >> TC;
     while (TC--) {
-
+        solve();
     }
     return 0;
 }
+
+/*
+? Time Stamp:
+-------------
+    * Start:
+    * Read:
+    * Think:
+    * Code:
+    * Debug:
+*/

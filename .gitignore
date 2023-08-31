@@ -5,15 +5,19 @@
 /References.lnk
 
 # execution files
-/source/main*
-/source/test*
+/src/main
+/src/main.cpp
+/src/main.exe
+/src/test
+/src/test.cpp
+/src/test.exe
 
 # Input / Output files
-/source/in.txt
-/source/out.txt
+/src/in.txt
+/src/out.txt
 
 # temporary files directory
-/temp
+/.temp
 
 # CPH Judge files
 .cph

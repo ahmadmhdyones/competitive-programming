@@ -5,20 +5,15 @@
 /References.lnk
 
 # execution files
-/src/main.exe
-/src/test.exe
-/src/main.cpp
-/src/main.*
+/source/main*
+/source/test*
 
 # Input / Output files
-/src/in.txt
-/src/out.txt
+/source/in.txt
+/source/out.txt
 
-# (materials --> to sort and archive)
-.temp/materials
-
-# (already exist in References folder -dont back it up)
-.temp/book.pdf
+# temporary files directory
+/temp
 
 # CPH Judge files
 .cph
